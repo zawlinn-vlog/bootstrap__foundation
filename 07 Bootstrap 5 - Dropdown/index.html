@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap | NPM</title>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-4">
+      <h3 class="text-primary mb-4">Dropdown &mdash;</h3>
+
+      <div class="dropdown">
+        <buttton
+          class="btn btn-primary dropdown-toggle"
+          data-bs-toggle="dropdown"
+        >
+          Courses
+        </buttton>
+
+        <ul class="dropdown-menu">
+          <li>
+            <a href="#" class="dropdown-item">HTML 5</a>
+          </li>
+          <li>
+            <a href="#" class="dropdown-item">CSS 3</a>
+          </li>
+          <li>
+            <a href="#" class="dropdown-item">JavaScript</a>
+          </li>
+          <li>
+            <a href="#" class="dropdown-item">jQuery</a>
+          </li>
+          <li>
+            <a href="#" class="dropdown-item">Bootstrap</a>
+          </li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <div class="dropdown">
+        <div class="btn-group">
+          <button class="btn btn-primary">Download Lesson</button>
+          <button
+            class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+            data-bs-toggle="dropdown"
+          ></button>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">HTML 5</a></li>
+            <li><a href="#" class="dropdown-item">CSS 3</a></li>
+            <li><a href="#" class="dropdown-item">JavaScript</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
